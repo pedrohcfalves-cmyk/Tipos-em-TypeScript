@@ -1,4 +1,3 @@
-"use strict";
 // Lista de compras do mês
 let itens = [
     { nome: 'Arroz 5kg', preco: 28.9, quantidade: 1 },
@@ -33,6 +32,7 @@ console.log(`Itens: ${nomes.join(', ')}`);
 console.log(`Acima de R$ 10: ${caros.map(item => item.nome).join(', ')}`);
 console.log(`Total da compra: R$ ${total.toFixed(2)}`);
 console.log(`Itens na despensa: ${itensNaDespensa}`);
+export {};
 // Para conferir a parte 5, descomente:
 // console.log(primeiro.nome, '|', segundo.nome);
 // console.log(itens.length, novaLista.length); // 5 6

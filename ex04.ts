@@ -1,3 +1,4 @@
+export {};
 // Lista de compras do mês
 let itens: { nome: string; preco: number; quantidade: number }[] = [
   { nome: 'Arroz 5kg', preco: 28.9, quantidade: 1 },

@@ -1,4 +1,3 @@
-"use strict";
 // 1.1 Três notificadores
 const porEmail = (destinatario, mensagem) => {
     console.log(`[E-MAIL] para ${destinatario}: ${mensagem}`);
@@ -33,6 +32,7 @@ notificarTodos(['(69) 99999-0000'], avisoLongo, porSms);
 // então o TypeScript não deixa retornar um valor.
 // 6. Reflexão
 const contar = (d, m) => m.length;
+export {};
 // aceito, sem erro
 // Aqui é diferente do item 5: o tipo Notificador diz que quem CHAMA a função
 // não vai usar o retorno. Então, se a função devolver um número, ele é

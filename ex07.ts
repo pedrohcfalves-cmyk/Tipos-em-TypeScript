@@ -1,3 +1,4 @@
+export {};
 // 1.0 notificador
 type Notificador = (destinatario: string, mensagem: string) => void;
 

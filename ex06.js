@@ -1,4 +1,3 @@
-"use strict";
 // 1. numerando o pedido 
 var StatusPedido;
 (function (StatusPedido) {
@@ -21,9 +20,9 @@ function mensagem(status) {
         case StatusPedido.Recebido:
             return 'Recebemos seu pedido!';
         case StatusPedido.EmPreparo:
-            return 'Seu pedido está sendo preparado ';
+            return 'Seu pedido está sendo preparado 🍳';
         case StatusPedido.SaiuParaEntrega:
-            return 'O entregador está a caminho ';
+            return 'O entregador está a caminho 🛵';
         case StatusPedido.Entregue:
             return 'Pedido entregue. Bom apetite!';
         case StatusPedido.Cancelado:
@@ -56,6 +55,7 @@ while (statusAtual !== StatusPedido.Entregue) {
 }
 let pagamento = FormaPagamento.PIX;
 console.log(`Pagamento: ${pagamento}`);
+export {};
 // 7. Erro provocado
 // let pagamento2: FormaPagamento = 'PIX';
 // Erro: Type '"PIX"' is not assignable to type 'FormaPagamento'.

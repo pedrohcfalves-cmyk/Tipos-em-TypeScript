@@ -1,5 +1,6 @@
+export {};
 // 1. Nome digitado pelo caixa
-let nomeDigitado: string = '  maria   da  silva  ';
+let nomeDigitado: string = ' maria da silva ';
 
 // 2. Função que formata o nome
 function formatarNome(nome: string): string {

@@ -1,4 +1,3 @@
-"use strict";
 let leituras = [
     ['Porto Velho', 34],
     ['Curitiba', 12],
@@ -28,8 +27,10 @@ let historico = ['Manaus', 31, 33, 30, 32, 29, 31, 34];
 const [cidadeHistorico, ...tempsSemana] = historico;
 let mediaSemana = media(tempsSemana);
 // Para ver o resultado, descomente:
+// console.log(`Média semanal de ${cidadeHistorico}: ${mediaSemana.toFixed(1)}°C`); // 31.4°C
 // 4.2 Tupla somente leitura
 const capitalOficial = ['RO', 'Porto Velho'];
+export {};
 // capitalOficial[1] = 'Ji-Paraná';
 // Erro: Cannot assign to '1' because it is a read-only property.
 // Uma tupla readonly não permite alterar nenhuma posição depois de criada.

@@ -1,3 +1,4 @@
+export {};
 // produtos 
 let nomeProduto1: string = 'Pão francês';
 let precoUnitario1: number = 0.75;

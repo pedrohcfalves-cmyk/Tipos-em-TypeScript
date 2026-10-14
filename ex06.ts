@@ -1,3 +1,4 @@
+export {};
 // 1. numerando o pedido 
 enum StatusPedido {
   Recebido = 1,
@@ -20,9 +21,9 @@ function mensagem(status: StatusPedido): string {
     case StatusPedido.Recebido:
       return 'Recebemos seu pedido!';
     case StatusPedido.EmPreparo:
-      return 'Seu pedido está sendo preparado ';
+      return 'Seu pedido está sendo preparado 🍳';
     case StatusPedido.SaiuParaEntrega:
-      return 'O entregador está a caminho ';
+      return 'O entregador está a caminho 🛵';
     case StatusPedido.Entregue:
       return 'Pedido entregue. Bom apetite!';
     case StatusPedido.Cancelado:

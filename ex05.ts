@@ -1,3 +1,4 @@
+export {};
 // 1. Tupla nomeada: cada leitura é [cidade, temperatura]
 type Leitura = [cidade: string, temperatura: number];
 
@@ -43,6 +44,7 @@ let historico: [string, ...number[]] = ['Manaus', 31, 33, 30, 32, 29, 31, 34];
 const [cidadeHistorico, ...tempsSemana] = historico;
 let mediaSemana: number = media(tempsSemana);
 // Para ver o resultado, descomente:
+// console.log(`Média semanal de ${cidadeHistorico}: ${mediaSemana.toFixed(1)}°C`); // 31.4°C
 
 // 4.2 Tupla somente leitura
 const capitalOficial: readonly [string, string] = ['RO', 'Porto Velho'];

@@ -1,6 +1,5 @@
-"use strict";
 // 1. Nome digitado pelo caixa
-let nomeDigitado = '  maria   da  silva  ';
+let nomeDigitado = ' maria da silva ';
 // 2. Função que formata o nome
 function formatarNome(nome) {
     const excecoes = ['da', 'de', 'do'];
@@ -36,3 +35,4 @@ Subtotal: R$ ${subtotal.toFixed(2)}
 Desconto fidelidade: R$ ${desconto.toFixed(2)}
 TOTAL: R$ ${total.toFixed(2)}`;
 console.log(cupom);
+export {};
